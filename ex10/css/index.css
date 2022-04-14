@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://image.ibb.co/cO9Lxq/login-bg.jpg');
+}
+a{
+    text-decoration: none;
+}
+#wrapper{
+    display: flex;
+}
+#left{
+    justify-content: space-around;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(156, 233, 203);
+
+}
+.logo{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+form div label{
+
+    display: block;
+    background-color: antiquewhite;
+    position: relative;
+    top: 20px;
+}
+.text-input{
+    padding: 8px 120px 8px 120px;
+    position: relative;
+    top: 20px;
+}
+.primary-btn{
+    background-color: rgb(66, 162, 240);
+    padding: 8px 185px 8px 185px;
+    border: none;
+    position: relative;
+    top: 20px;
+}
+#right{
+    justify-content: space-around;
+    width: 70%;
+}
+#showcase{
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 35%;
+}
+.showcase-text{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+h1{
+    font-weight: normal;
+}
+.secondary-btn{
+    color:aliceblue;
+    background-color: rgb(71, 73, 73);
+    padding: 10px 170px 10px 170px;
+    position: relative;
+    top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
