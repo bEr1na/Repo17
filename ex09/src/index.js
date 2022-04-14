@@ -33,18 +33,18 @@ var users = [
 function getUsers(){
     var output =[];
     for(var i =0;i<users.length;i++){
-        output = users[i].firstName + " "+ users[i].lastName + " is " + users[i].age + ", " + users[i].gender;
+        output = i+1 + " - " +  users[i].firstName + " "+ users[i].lastName + " is " + users[i].age + ", " + users[i].gender;
         console.log(output);
     }
     return output;
 }
-function findUser(lastName, gender){
-    var user
+function findById(id){
+    var user;
     var iFindUser;
     return iFindUser;
+
 }
 
-
 getUsers();
-findUser();
-module.exports= findUser;
+findById();
+module.exports=findById;
